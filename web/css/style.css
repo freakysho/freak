@@ -73,7 +73,7 @@ a.boxclose{
 	position: absolute;
 	top: 4.5em;
 	right: 16.3em;
-} 
+}
 .menu_box_list{
 	display:inline-block;
 	padding: 5em 0;
@@ -105,6 +105,13 @@ a.boxclose{
 .menu_box_list li a > i > img{
 	vertical-align:middle;
 	padding-right:10px;
+}
+.pht{
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  margin-top:300px;
+  margin-left: 1155px;
 }
 .boxclose span{
 	width:35px;
@@ -141,6 +148,7 @@ a.boxclose{
 }
 .banner-info ul li:nth-child(1){
 	margin-right:0.8em;
+  margin-bottom: 1.8em;
 }
 .banner-info ul li a{
 	background: #74a89b;
@@ -322,6 +330,8 @@ a.boxclose{
 .view img {
    display: block;
    position: relative;
+   height: 230px;
+   width: 270px;
 }
 .info {
    display: inline-block;
@@ -932,7 +942,7 @@ a.boxclose {
 }
 .portfolio-grid {
 	width: 50%;
-}	
+}
 .blog-artical {
 	width: 31.9999%;
 	margin-right: 2%;
@@ -1046,7 +1056,7 @@ a.boxclose {
 @media(max-width:640px){
 .nav-icon a span {
 	margin-top: 1em;
-}	
+}
 .header {
 	min-height: 460px;
 }
@@ -1072,7 +1082,7 @@ a.boxclose {
 }
 .menu_box_list {
 	padding: 1em 0;
-}	
+}
 .nav-icon a span {
 	margin-top:3px;
 	margin-right:0.5em;
@@ -1111,7 +1121,7 @@ p.more-articals {
 @media(max-width:320px){
 .banner-info h1 {
 	font-size: 2.2em;
-}	
+}
 .banner-info p {
 	font-size: 0.85em;
 }
@@ -1274,7 +1284,7 @@ h5.post-author_head {
 	width: 100%;
 }
 .comments-area p {
-	padding: 0;	
+	padding: 0;
 }
 .contact_right h3 {
 	font-size: 18px;

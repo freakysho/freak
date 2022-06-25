@@ -1,0 +1,29 @@
+.banner-wrapper {
+    position: relative;
+    overflow: hidden;
+    height: 500px;
+    margin: 20px 0;
+}
+.banner {
+    position: absolute;
+    overflow: hidden;
+    margin-left: 550px;
+    width: 450px;
+}
+.banner.dev {
+    transform: skew(-30deg);
+    margin-left: 300px;
+    width: calc(100% + 2000px);
+    transition: all 200ms ease-out;
+}
+.banner.dev .banner-content {
+    transform: skew(30deg);
+    margin-left: 200px;
+}
+.banner .banner-content {
+    height: 600px;
+}
+.banner .banner-content img {
+    max-width: none;
+    width: 500px;
+}
